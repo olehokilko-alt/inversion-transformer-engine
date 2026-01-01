@@ -2,10 +2,12 @@ import csv
 import json
 import logging
 from typing import List, Generator, Dict
+from collections import deque
 
 class CSVAdapter:
     """
     FinTech Adapter: Converts CSV historical data into model-ready batches.
+    Optimized with deque for O(1) sliding window operations.
     """
     def __init__(self, file_path: str):
         self.file_path = file_path
@@ -16,7 +18,7 @@ class CSVAdapter:
         Reads CSV and yields batches of data.
         Assumes standard OHLCV format or similar time-series CSV.
         """
-        buffer = []
+        buffer = deque(maxlen=batch_size)
         try:
             with open(self.file_path, 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
@@ -25,11 +27,9 @@ class CSVAdapter:
                         val = float(row.get(value_column, 0.0))
                         buffer.append(val)
                         
-                        if len(buffer) >= batch_size:
-                            yield buffer
-                            # Sliding window: remove first element (step=1) or clear (step=batch_size)
-                            # Here we implement sliding window with step 1 for maximum resolution
-                            buffer.pop(0) 
+                        if len(buffer) == batch_size:
+                            yield list(buffer)
+                            # Deque automatically handles sliding window via maxlen
                     except ValueError:
                         continue
         except FileNotFoundError:
