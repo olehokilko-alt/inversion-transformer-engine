@@ -1,0 +1,34 @@
+[
+    {
+        "case": "FinTech_Crypto_Market",
+        "anomaly": "Flash Crash & Volatility",
+        "avg_inversion": 0.5052013773186034,
+        "max_inversion": 0.9670024741639766,
+        "detection_status": "SUCCESS",
+        "proof_image": "assets\\proof_fintech_crypto_market.png"
+    },
+    {
+        "case": "MedTech_Cardiac_ECG",
+        "anomaly": "Atrial Fibrillation",
+        "avg_inversion": 0.5779522002617731,
+        "max_inversion": 1.0229733808966797,
+        "detection_status": "SUCCESS",
+        "proof_image": "assets\\proof_medtech_cardiac_ecg.png"
+    },
+    {
+        "case": "Industrial_IoT_Motor",
+        "anomaly": "Progressive Bearing Wear",
+        "avg_inversion": 0.7047554209846799,
+        "max_inversion": 0.897317607528178,
+        "detection_status": "SUCCESS",
+        "proof_image": "assets\\proof_industrial_iot_motor.png"
+    },
+    {
+        "case": "IT_Server_Traffic",
+        "anomaly": "DDoS Attack Pattern",
+        "avg_inversion": 0.47243473216877924,
+        "max_inversion": 1.0781898490103854,
+        "detection_status": "SUCCESS",
+        "proof_image": "assets\\proof_it_server_traffic.png"
+    }
+]
