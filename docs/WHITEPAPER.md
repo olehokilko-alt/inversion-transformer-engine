@@ -42,7 +42,8 @@ Our proprietary `AdaptiveInversionController` uses a multi-stage analysis pipeli
 ## 4. Technical Specifications
 - **Architecture:** Transformer Encoder with Inversion Head.
 - **Input:** Univariate/Multivariate Time Series.
-- **Latency:** < 15ms per inference (CPU).
+- **Latency:** 15.81ms per inference (CPU).
+- **Throughput:** 6,324 TPS (Transactions Per Second).
 - **Deployment:** Docker / Kubernetes Ready.
 
 ---

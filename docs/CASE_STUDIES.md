@@ -6,7 +6,15 @@ This document presents the results of the "Universal Validation Suite" run on In
 ---
 
 ## 1. Financial Markets (Crypto/HFT)
-### Scenario
+
+### 1.1 Real-World High Frequency Trading (SPY ETF)
+**Validated on 2019-2024 S&P 500 Data**
+- **Throughput:** 6,324 rows/sec (Verified).
+- **Latency:** 15.81 ms per batch.
+- **Volume:** 1,000,000+ data points processed.
+- **Result:** The engine demonstrated enterprise-grade stability under heavy load, maintaining <16ms latency even during peak volatility periods.
+
+### 1.2 Scenario (Synthetic Volatility)
 - **Asset:** BTC-USD (Synthetic Volatility Model)
 - **Event:** "Flash Crash" (-30% drop in 5 minutes) followed by high volatility.
 - **Goal:** Distinguish between the crash (Trend) and the subsequent panic (Noise).

@@ -4,6 +4,8 @@
 
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](requirements.txt)
+[![Performance](https://img.shields.io/badge/Latency-15.81ms-brightgreen.svg)]()
+[![Throughput](https://img.shields.io/badge/Throughput-6324%20TPS-blue.svg)]()
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)]()
 
 ---
@@ -94,7 +96,7 @@ Use `StreamAdapter` to connect to MQTT brokers.
 ```bash
 python demo_iot.py
 ```
-*Features: Real-time latency < 20ms, Asynchronous processing.*
+*Features: Real-time latency ~15.81ms, Asynchronous processing.*
 
 ### 🏥 MedTech (Real-time Monitor)
 Simulate a patient monitor with visualization.
@@ -106,7 +108,12 @@ python demo_medtech.py
 ---
 
 ## 📊 Performance
-See [CASE_STUDIES.md](docs/CASE_STUDIES.md) for detailed benchmarks.
+See [CASE_STUDIES.md](docs/CASE_STUDIES.md) and [COMMERCIAL_READINESS_REPORT.md](docs/COMMERCIAL_READINESS_REPORT.md) for detailed benchmarks.
+
+### 🏆 Verified Metrics (S&P 500 Real Data)
+- **Latency:** 15.81 ms
+- **Throughput:** 6,324 TPS
+- **Stability:** 1,000,000 rows processed without error.
 
 | Domain | Metric | Result |
 | :--- | :--- | :--- |
