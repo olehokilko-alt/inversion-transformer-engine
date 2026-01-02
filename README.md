@@ -23,13 +23,21 @@ Inversion Transformer is a specialized deep learning architecture designed for *
 
 ## 🧠 Technology Overview
 
-Inversion Transformer represents a paradigm shift in time-series analysis. By combining advanced deep learning architectures with proprietary signal processing logic, the engine achieves what was previously impossible: **simultaneous noise reduction and zero-lag trend detection**.
+Inversion Transformer represents a paradigm shift in time-series analysis. By combining advanced deep learning architectures with proprietary signal processing logic, the engine addresses a critical challenge in the industry: **achieving robust noise reduction while maintaining minimal trend detection lag**.
 
-Instead of traditional statistical averaging which introduces lag, our **Adaptive Inversion Engine** instantly distinguishes between structural market shifts and transient volatility. This allows for:
+Instead of traditional statistical averaging which inherently introduces lag, our **Adaptive Inversion Engine** rapidly distinguishes between structural market shifts and transient volatility. This allows for:
 
-*   **Zero-Lag Detection:** Identify trends immediately as they form.
-*   **Noise Immunity:** Filter out market "jitters" without losing signal fidelity.
-*   **Universal Applicability:** Works equally well on Financial Data, ECG signals, and IoT telemetry.
+*   **Ultra-Low Latency Detection:** Identify trends with minimal delay relative to price action.
+*   **Advanced Noise Filtering:** Filter out market "jitters" without losing significant signal fidelity.
+*   **Universal Applicability:** Proven effective on Financial Data (S&P 500), adaptable to ECG signals and IoT telemetry.
+
+## 🚀 Growth & Development Potential
+
+This engine acts as a foundational technology layer with significant scalability opportunities:
+
+*   **SaaS Transformation:** Ready to be wrapped into a subscription API for retail traders or third-party developers.
+*   **Cross-Industry Expansion:** The core logic is domain-agnostic. While validated on Finance, it can be retrained for seismic activity, bio-signals, or network traffic analysis.
+*   **Hardware Acceleration:** The architecture is streamlined for potential porting to FPGA/ASIC for nanosecond-level HFT applications.
 
 ## 🔬 Scientific Validation
 
@@ -68,10 +76,12 @@ See [CASE_STUDIES.md](docs/CASE_STUDIES.md) and [COMMERCIAL_READINESS_REPORT.md]
 
 | Domain | Metric | Result |
 | :--- | :--- | :--- |
-| **Finance** | ROI vs Buy-Hold | **+48%** |
+| **Finance** | ROI vs Buy-Hold | **+48%** * |
 | **Medical** | AFib Detection | **99.2%** |
 | **IoT** | Fault Prediction | **-50h** (Early Warning) |
 | **IT Ops** | DDoS Sensitivity | **1.078** (Max Inversion) |
+
+*\* Note: ROI based on backtesting using historical S&P 500 data (2019-2024). Past performance is not indicative of future results.*
 
 ---
 
