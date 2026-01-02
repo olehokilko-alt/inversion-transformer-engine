@@ -54,7 +54,7 @@ For detailed due diligence, access to the Data Room, or to request specific stre
 
 📧 **Email:** olehokilko@gmail.com
 
-*Serious inquiries only. Full source code, IP rights, and patent documentation will be transferred upon sale completion.*
+*Serious inquiries only. The buyer will receive full ownership of the source code, all intellectual property (IP) rights, and exclusive commercial usage rights upon sale completion.*
 
 ---
 
