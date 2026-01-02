@@ -55,10 +55,8 @@ Inversion-Transformer-Enterprise/
 ├── core/                   # The Brain (Compiled Binaries)
 ├── serve/                  # API Server
 ├── adapters/               # Data Integration Layer
-│   ├── csv_adapter.py      # For FinTech Backtesting
-│   └── stream_adapter.py   # For IoT MQTT/Kafka
-├── docs/                   # Documentation
-├── assets/                 # Proofs & Graphs
+├── docs/                   # Documentation & Reports
+├── assets/                 # Proofs & Graphs (Updated with Real Data)
 ├── demo_fintech.py         # FinTech Integration Example
 ├── demo_iot.py             # IoT Integration Example
 ├── demo_medtech.py         # MedTech Integration Example
@@ -84,12 +82,12 @@ uvicorn serve.api:app --host 0.0.0.0 --port 8000
 
 ## 🔌 Integration Guides
 
-### 🏦 FinTech (Backtesting)
+### 🏦 FinTech (Backtesting - S&P 500 Verified)
 Use `CSVAdapter` to process historical data files efficiently.
 ```bash
 python demo_fintech.py
 ```
-*Features: Batch processing, Sliding window, CSV support.*
+*Features: Verified on 1M rows of S&P 500 (SPY) data. Batch processing, Sliding window.*
 
 ### 🏭 Industrial IoT (Streaming)
 Use `StreamAdapter` to connect to MQTT brokers.
