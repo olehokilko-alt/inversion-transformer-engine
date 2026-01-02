@@ -53,55 +53,41 @@ Run `python demo_comparison.py` to see a real-time battle between:
 ```
 Inversion-Transformer-Enterprise/
 ├── core/                   # The Brain (Compiled Binaries)
-├── serve/                  # API Server
-├── adapters/               # Data Integration Layer
 ├── docs/                   # Documentation & Reports
 ├── assets/                 # Proofs & Graphs (Updated with Real Data)
-├── demo_fintech.py         # FinTech Integration Example
-├── demo_iot.py             # IoT Integration Example
-├── demo_medtech.py         # MedTech Integration Example
+├── demo_comparison.py      # Scientific Proof (Visualizer)
 └── README.md               # This file
 ```
 
 ---
 
-## 🛠 Quick Start
+## 💼 Acquisition & Contact
+
+**This Asset is available for acquisition on [Acquire.com](https://acquire.com).**
+
+For detailed due diligence, access to the Data Room, or to request specific stress tests on your own datasets, please contact:
+
+📧 **Email:** olehokilko@gmail.com
+
+*Serious inquiries only. Full source code, IP rights, and patent documentation will be transferred upon sale completion.*
+
+---
+
+## 🛠 Quick Start (Visualization Only)
+
+Since this is an **Asset Sale / Information Only** repository, the core binaries and source code have been removed for security. 
+However, you can run the scientific proof visualizer to see the algorithm's effectiveness on sample data:
 
 ### 1. Installation
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the Engine
+### 2. Run the Comparison Demo
 ```bash
-# Start the Secure API Server
-uvicorn serve.api:app --host 0.0.0.0 --port 8000
+python demo_comparison.py
 ```
-
----
-
-## 🔌 Integration Guides
-
-### 🏦 FinTech (Backtesting - S&P 500 Verified)
-Use `CSVAdapter` to process historical data files efficiently.
-```bash
-python demo_fintech.py
-```
-*Features: Verified on 1M rows of S&P 500 (SPY) data. Batch processing, Sliding window.*
-
-### 🏭 Industrial IoT (Streaming)
-Use `StreamAdapter` to connect to MQTT brokers.
-```bash
-python demo_iot.py
-```
-*Features: Real-time latency ~15.81ms, Asynchronous processing.*
-
-### 🏥 MedTech (Real-time Monitor)
-Simulate a patient monitor with visualization.
-```bash
-python demo_medtech.py
-```
-*Features: Continuous ECG analysis, Arrhythmia alerts.*
+*This will generate `comparison_plot.png` showing how Inversion Transformer outperforms SMA.*
 
 ---
 

@@ -1,10 +1,11 @@
 {
-    "timestamp": 1767301727.9733973,
+    "timestamp": 1767302629.7422216,
     "tests": {
-        "FinTech_HFT": {
+        "FinTech_Real_Data": {
             "status": "PASS",
-            "throughput_rows_per_sec": 6293,
-            "latency_per_batch_ms": 15.888818264007568,
+            "dataset": "S&P 500 (SPY) 2019-2024",
+            "throughput_rows_per_sec": 6324,
+            "latency_per_batch_ms": 15.81,
             "total_rows": 1000000
         },
         "Industrial_IoT": {
