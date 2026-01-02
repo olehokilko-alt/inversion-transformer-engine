@@ -49,18 +49,6 @@ Run `python demo_comparison.py` to see a real-time battle between:
 
 ---
 
-## 📂 Repository Structure
-```
-Inversion-Transformer-Enterprise/
-├── core/                   # The Brain (Compiled Binaries)
-├── docs/                   # Documentation & Reports
-├── assets/                 # Proofs & Graphs (Updated with Real Data)
-├── demo_comparison.py      # Scientific Proof (Visualizer)
-└── README.md               # This file
-```
-
----
-
 ## 💼 Acquisition & Contact
 
 **This Asset is available for acquisition on [Acquire.com](https://acquire.com).**
@@ -70,24 +58,6 @@ For detailed due diligence, access to the Data Room, or to request specific stre
 📧 **Email:** olehokilko@gmail.com
 
 *Serious inquiries only. Full source code, IP rights, and patent documentation will be transferred upon sale completion.*
-
----
-
-## 🛠 Quick Start (Visualization Only)
-
-Since this is an **Asset Sale / Information Only** repository, the core binaries and source code have been removed for security. 
-However, you can run the scientific proof visualizer to see the algorithm's effectiveness on sample data:
-
-### 1. Installation
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run the Comparison Demo
-```bash
-python demo_comparison.py
-```
-*This will generate `comparison_plot.png` showing how Inversion Transformer outperforms SMA.*
 
 ---
 
