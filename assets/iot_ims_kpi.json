@@ -1,0 +1,9 @@
+{
+  "series_points": 19735,
+  "lead_time_points_proxy": 17716.0,
+  "false_maintenance_triggers_before_failure_proxy": 12904,
+  "inv_weight_avg": 0.839953601360321,
+  "inv_weight_max": 1.1503573656082153,
+  "crest_factor_avg": 2.7405998923980195,
+  "kurtosis_avg": 5.83348665289507
+}
