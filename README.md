@@ -29,10 +29,22 @@
 - KPI table: assets/kpi_table.md
 
 ## Differentiation
+- Transformer-based deep AI with adaptive inversion regularization; no algorithm disclosure in public package
 - Focus on structural change detection vs. generic forecasting/classification; resilient to shift/drift/missing data
 - Adaptive thresholding (Youden J/F1) and window‑majority labeling for practical operating points across domains
 - Portable pipelines and one‑click reproducibility; public repo exposes proofs, not logic; secure eval package available
 - Transparent KPIs/latency/scalability metrics, consistently benchmarked on real datasets (AFDB, IMS, CIC)
+
+## Key Buyers
+- MedTech providers and cardiac monitoring teams
+- Industrial maintenance and reliability engineering groups
+- SOC/NDR teams for network anomaly and DDoS detection
+- Quant desks for regime change signals and risk control
+
+## 30‑Second Demo Narrative
+- Open assets/kpi_table.md and investor_report.md for cross‑domain KPIs
+- Review latency_plot.png and scalability_plot.png for near real‑time performance
+- Run quick commands in DEPLOYMENT.md to reproduce figures; request secure eval package to validate KPIs without algorithm exposure
 
 ## Quick Start
 ```bash
