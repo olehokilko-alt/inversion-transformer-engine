@@ -28,6 +28,12 @@
 - Email for inquiries and purchase: olehokilko@gmail.com
 - Sold/listed on Acquire.com
 
+## Deal Structure (Asset Sale / Licensing)
+- Technology/IP asset transfer or licensing; buyer receives code/IP, documentation and proofs
+- Secure evaluation package provided pre‑sale (no algorithm disclosure)
+- Support options available (L2/L3, integration hours)
+- See PRICING_AND_DEAL.md for terms ($40k upfront + 25% reseller royalty)
+
 ## Disclaimer
 - Public repository does not disclose algorithmic logic or source code — proofs and documentation only
 
