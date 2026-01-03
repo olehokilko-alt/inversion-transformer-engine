@@ -1,4 +1,7 @@
 # Inversion Transformer — Real Product with Proof
+<p align="center">
+  <img src="assets/press_kit/banner.svg" alt="Inversion Transformer Banner" width="720" />
+</p>
 
 ## Pitch (Why Buy Now)
 - Detects structural change under noise, missing data and drift with an adaptive inversion controller, proven on real datasets
@@ -45,6 +48,11 @@
 - Open assets/kpi_table.md and investor_report.md for cross‑domain KPIs
 - Review latency_plot.png and scalability_plot.png for near real‑time performance
 - Run quick commands in DEPLOYMENT.md to reproduce figures; request secure eval package to validate KPIs without algorithm exposure
+
+## Press Kit
+- Logo and one‑pager: assets/press_kit/
+- Listing summary: docs/LISTING.md
+- Transfer & IP: docs/TRANSFER_CHECKLIST.md, docs/IP_OWNERSHIP.md
 
 ## Quick Start
 ```bash
