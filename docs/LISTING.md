@@ -21,7 +21,7 @@
 
 ## Why Buy
 - Cross‑industry applicability, fast POC, proof‑first artifacts
-- Differentiation: structural change detection under noise and missing data
+- Differentiation: transformer‑based deep AI with adaptive inversion regularization; structural change detection under noise and missing data
 - Ready to ship; minimal integration effort
 
 ## Contact & Sales Platform
