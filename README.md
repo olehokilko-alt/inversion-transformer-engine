@@ -1,27 +1,32 @@
-# Acquire.com Listing Summary
+# Listing Для Acquire.com
 
-## Product
-- Inversion Transformer: low-latency, robust anomaly detection across MedTech/IoT/Cyber/FinTech
-- Real datasets and reproducible KPIs; consolidated report and figures
+## Продукт
+- Inversion Transformer — низьколатентна, робастна детекція аномалій у часових рядах
+- Галузі: MedTech, Industrial IoT, Cybersecurity, FinTech
+- Реальні датасети та відтворювані KPI; консолідований звіт і графіки
 
-## Highlights
-- Latency p99 < 10 ms (controller); throughput ~300 eps/worker
-- Balanced KPIs: AFDB (specificity ~0.949, F1 ~0.661), IMS crest/kurtosis, CIC precision ~0.949 (balanced pending BENIGN CSV)
-- One-click scripts, SDK/API, docs in repo; no separate website needed
+## Ключові Переваги
+- Латентність контролера p99 < 10 ms; стабільний throughput ~300 eps/воркер
+- Balanced KPI для AFDB (specificity ~0.949, F1 ~0.661), IMS (crest/kurtosis), CIC (precision ~0.949; balanced доступний при BENIGN CSV)
+- Без окремого сайту — вся інформація та докази у цьому репозиторії
 
-## Deal Options
-- Partial sale under fulfillment: $40,000 upfront + 25% royalty on reseller sales
-- Alternatively: SaaS/On‑prem tiers (see PRICING_AND_DEAL.md)
+## Умови Угоди
+- Частковий продаж під реалізацію: $40,000 одноразово + 25% роялті з продажів реселера
+- Альтернатива: SaaS/On‑prem пакети (див. PRICING_AND_DEAL.md)
 
-## Assets
-- KPIs, graphs, consolidated report in /assets
-- Scripts in /benchmarks
-- Docs: README.md, INVESTOR_PACKAGE.md, DEPLOYMENT.md, DATASETS.md, COMPLIANCE.md, PRICING_AND_DEAL.md
+## Активи Репозиторію
+- /assets: KPI (JSON/MD), графіки (PNG), консолідований звіт
+- /docs: INVESTOR_PACKAGE, DEPLOYMENT, DATASETS, COMPLIANCE, PRICING_AND_DEAL, LISTING
+- README.md: короткий огляд і «чому купити зараз»
 
-## Why Buy
-- Cross-industry applicability, fast POC, proven artifacts
-- Strong differentiation: structural change detection under noise, portability
-- Ready to ship; minimal integration effort
+## Чому Купити
+- Крос‑галузева застосовність, швидкий POC, доказові артефакти
+- Диференціація: детекція структурних змін під шумом та пропусками
+- Готово до відвантаження; мінімальні зусилля інтеграції
 
-## Contact
-- Open a GitHub issue or email (see PRICING_AND_DEAL.md)
+## Контакт та Платформа Продажу
+- Email для запитів і покупки: olehokilko@gmail.com
+- Продукт продається на платформі Acquire.com
+
+## Дисклеймер
+- У публічному репозиторії не розкривається логіка алгоритмів та внутрішній код — лише докази та документація
