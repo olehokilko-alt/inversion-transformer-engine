@@ -1,7 +1,5 @@
 # Inversion Transformer — Real Product with Proof
-<p align="center">
-  <img src="assets/press_kit/banner.svg" alt="Inversion Transformer Banner" width="720" />
-</p>
+![Banner](assets/press_kit/banner.svg)
 
 ## Pitch (Why Buy Now)
 - Detects structural change under noise, missing data and drift with an adaptive inversion controller, proven on real datasets
