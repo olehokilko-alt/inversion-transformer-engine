@@ -30,3 +30,13 @@
 
 ## Disclaimer
 - Public repository does not disclose algorithmic logic or source code — proofs and documentation only
+
+## Key Buyers & Outcomes
+- MedTech (ECG monitoring)
+  - Outcomes: reduces false alarms at equal sensitivity; earlier lead‑time proxy for AFib‑like events; robust under motion artifacts and dropouts
+- Industrial IoT (predictive maintenance)
+  - Outcomes: earlier fault detection vs vibration thresholds; fewer false maintenance triggers; downtime prevention and MTBF uplift
+- Cybersecurity (SOC/NDR)
+  - Outcomes: detects DDoS without IP reputation or signatures; lower false positives at practical thresholds; latency stability under burst traffic
+- FinTech (regime detection)
+  - Outcomes: faster regime change signaling; risk reduction (lower whipsaw); volatility‑aware exposure cues without overfitting to price noise
