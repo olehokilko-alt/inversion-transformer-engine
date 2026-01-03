@@ -1,4 +1,4 @@
-# Acquire.com Listing
+# Product Listing
 
 ## Product
 - Inversion Transformer — low‑latency, robust anomaly detection in time series
@@ -24,9 +24,8 @@
 - Differentiation: transformer‑based deep AI with adaptive inversion regularization; structural change detection under noise and missing data
 - Ready to ship; minimal integration effort
 
-## Contact & Sales Platform
+## Contact & Sales
 - Email for inquiries and purchase: olehokilko@gmail.com
-- Sold/listed on Acquire.com
 
 ## Deal Structure (Asset Sale / Licensing)
 - Technology/IP asset transfer or licensing; buyer receives code/IP, documentation and proofs
