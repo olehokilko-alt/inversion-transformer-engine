@@ -1,0 +1,28 @@
+{
+  "metrics": {
+    "sensitivity": 0.9999999999401197,
+    "specificity": 0.0,
+    "precision": 0.9488636363097236,
+    "recall": 0.9999999999401197,
+    "tp": 167,
+    "fp": 9,
+    "tn": 0,
+    "fn": 0,
+    "false_positive_rate": 0.9999999988888888
+  },
+  "optimal_threshold": 0.10000000149011612,
+  "selection_method": "youden_j",
+  "aux_f1_metrics": {
+    "sensitivity": 0.9999999999401197,
+    "specificity": 0.0,
+    "precision": 0.9488636363097236,
+    "recall": 0.9999999999401197,
+    "tp": 167,
+    "fp": 9,
+    "tn": 0,
+    "fn": 0,
+    "false_positive_rate": 0.9999999988888888
+  },
+  "aux_f1_threshold": 0.10000000149011612,
+  "detection_latency_minutes": 1.0
+}
