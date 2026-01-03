@@ -1,32 +1,67 @@
-# Listing Для Acquire.com
+# Inversion Transformer — Real Product with Proof
 
-## Продукт
-- Inversion Transformer — низьколатентна, робастна детекція аномалій у часових рядах
-- Галузі: MedTech, Industrial IoT, Cybersecurity, FinTech
-- Реальні датасети та відтворювані KPI; консолідований звіт і графіки
+## Pitch (Why Buy Now)
+- Detects structural change under noise, missing data and drift with an adaptive inversion controller, proven on real datasets
+- Near real‑time: controller p99 < 10 ms, ~300 events/sec per worker; robust throughput and scaling
+- Cross‑industry out‑of‑the‑box: balanced AFDB (specificity ~0.949, F1 ~0.661), IMS crest/kurtosis, CIC precision ~0.949
+- Proof‑first packaging: reproducible KPIs/figures in repo, secure evaluation package for buyers (no algorithm disclosure)
 
-## Ключові Переваги
-- Латентність контролера p99 < 10 ms; стабільний throughput ~300 eps/воркер
-- Balanced KPI для AFDB (specificity ~0.949, F1 ~0.661), IMS (crest/kurtosis), CIC (precision ~0.949; balanced доступний при BENIGN CSV)
-- Без окремого сайту — вся інформація та докази у цьому репозиторії
+## Overview
+- Unified platform for fast anomaly detection in time-series
+- Low latency (controller p99 < 10 ms), stable throughput (~300 eps/worker)
+- Cross-industry applicability: MedTech, Industrial IoT, Cybersecurity, FinTech
+- Real and large datasets, reproducible KPIs, artifacts and reports
 
-## Умови Угоди
-- Частковий продаж під реалізацію: $40,000 одноразово + 25% роялті з продажів реселера
-- Альтернатива: SaaS/On‑prem пакети (див. PRICING_AND_DEAL.md)
+## Key Proofs (Artifacts)
+- Latency: assets/latency_benchmark.json, assets/latency_plot.png
+- Scalability: assets/scalability_summary.json, assets/scalability_plot.png
+- MedTech:
+  - Real stream: assets/medtech_summary.json
+  - AFDB Balanced KPI: assets/medtech_afdb_balanced.json
+  - AFDB ROC: assets/medtech_afdb_roc.json
+- Cybersecurity:
+  - CIC KPI (second-level/window-majority): assets/cyber_cic_kpi.json
+  - CIC Balanced KPI: assets/cyber_cic_balanced_kpi.json (when BENIGN is available)
+- Industrial IoT:
+  - Stream KPI: assets/iot_summary.json
+  - IMS KPI (crest/kurtosis): assets/iot_ims_kpi.json
+- Consolidated report: assets/investor_report.md
+- KPI table: assets/kpi_table.md
 
-## Активи Репозиторію
-- /assets: KPI (JSON/MD), графіки (PNG), консолідований звіт
-- /docs: INVESTOR_PACKAGE, DEPLOYMENT, DATASETS, COMPLIANCE, PRICING_AND_DEAL, LISTING
-- README.md: короткий огляд і «чому купити зараз»
+## Differentiation
+- Focus on structural change detection vs. generic forecasting/classification; resilient to shift/drift/missing data
+- Adaptive thresholding (Youden J/F1) and window‑majority labeling for practical operating points across domains
+- Portable pipelines and one‑click reproducibility; public repo exposes proofs, not logic; secure eval package available
+- Transparent KPIs/latency/scalability metrics, consistently benchmarked on real datasets (AFDB, IMS, CIC)
 
-## Чому Купити
-- Крос‑галузева застосовність, швидкий POC, доказові артефакти
-- Диференціація: детекція структурних змін під шумом та пропусками
-- Готово до відвантаження; мінімальні зусилля інтеграції
+## Quick Start
+```bash
+python -m pip install -r requirements.txt
+python data_fetch.py
+python run_all.py
+# Additional KPIs
+python benchmarks/medtech_afdb_balanced.py
+python benchmarks/medtech_afdb_roc.py
+python benchmarks/iot_ims_kpi.py
+python benchmarks/cyber_cic_kpi.py
+# Build tables/figures/report
+python benchmarks/kpi_table.py
+python benchmarks/build_figures.py
+python benchmarks/report_builder.py
+```
 
-## Контакт та Платформа Продажу
-- Email для запитів і покупки: olehokilko@gmail.com
-- Продукт продається на платформі Acquire.com
+## What’s Included
+- Core Engine (SDK/API) for inversion controller and utilities
+- Sector Packs: ready loaders/scenarios for MedTech/IoT/Cyber/FinTech
+- Documentation: docs/INVESTOR_PACKAGE.md, docs/DEPLOYMENT.md, docs/DATASETS.md, docs/COMPLIANCE.md, docs/PRICING_AND_DEAL.md
 
-## Дисклеймер
-- У публічному репозиторії не розкривається логіка алгоритмів та внутрішній код — лише докази та документація
+## Pricing & Deal Model
+- Partial sale under fulfillment: $40,000 upfront + 25% royalty on reseller sales (details in docs/PRICING_AND_DEAL.md)
+- Alternatives: Starter/Pro/Enterprise (SaaS/On‑prem) — pricing and licenses in docs/PRICING_AND_DEAL.md
+
+## Disclaimers
+- MedTech: not a medical device; intended for analytics/decision support
+- Data: public datasets referenced; use according to their licenses
+
+## Contact
+- For purchase/partnership: open a GitHub issue or email listed in docs/PRICING_AND_DEAL.md
